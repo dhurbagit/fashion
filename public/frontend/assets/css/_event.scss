@@ -1,0 +1,140 @@
+#event__container {
+  .event__wrapper {
+    .event_card {
+      margin-bottom: 50px;
+      .event__image {
+        width: 100%;
+        height: 20rem;
+        border-radius: 12px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        img {
+          object-fit: cover;
+          object-position: center;
+          transition: 0.3s all ease-in-out;
+        }
+      }
+      .event__details {
+        h4 {
+          font-weight: 600;
+          transition: 0.3s all ease-in-out;
+        }
+        p {
+          font-size: 16px;
+          line-height: 20px;
+          transition: 0.3s all ease-in-out;
+        }
+      }
+      &:hover {
+        .event__image {
+          img {
+            transform: scale(1.1);
+          }
+        }
+        .event__details {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}
+// event details start
+#event__details-container {
+  .event__details-title {
+    background: $gradient2;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    h3 {
+      font-weight: 600;
+    }
+  }
+  .event__details-content {
+    .event_detail-image {
+      width: 100%;
+      height: 100%;
+      border-radius: 12px;
+      overflow: hidden;
+      img {
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+    .event_detail-text {
+      p {
+        margin-bottom: 0;
+        line-height: 20px;
+      }
+    }
+  }
+  .related__slider-holder {
+    .related-title {
+      h3 {
+        font-weight: 600;
+      }
+    }
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      .swiper-item {
+        margin-bottom: 40px;
+        a {
+          transition: .3s all ease-in-out;
+          .swiper-img {
+            width: 100%;
+            height: 15.5rem;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 5px;
+            img {
+              display: block;
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
+          .swiper-text {
+            h6 {
+              font-size: 18px;
+              font-weight: 600;
+              margin-bottom: 0;
+            }
+            p {
+              font-size: 13px;
+              line-height: 15px;
+            }
+          }
+          &:hover{
+            color: $primary-color;
+          }
+        }
+      }
+    }
+    .swiper-pagination {
+      .swiper-pagination-bullet {
+        background: $gradient2;
+        width: 1rem;
+        height: 1rem;
+      }
+    }
+  }
+}
+// event details end

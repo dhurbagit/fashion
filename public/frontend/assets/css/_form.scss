@@ -1,0 +1,39 @@
+#form__container {
+  .white-box {
+    margin-top: 3px;
+    background-color: $color-white;
+    .form-title {
+      border-bottom: 2px solid gray;
+      h1 {
+        color: $primary-color;
+        margin-bottom: 0;
+      }
+      p {
+        font-size: 18px;
+        margin-bottom: 0;
+      }
+      h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+      }
+    }
+    .form__input-box {
+      padding: 40px 90px;
+      h4 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        color: $primary-color;
+        font-size: 22px;
+      }
+      .form-control,
+      .form-select {
+        border-radius: 0 !important;
+        border-color: $color-black;
+        &:focus{
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}

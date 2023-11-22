@@ -1,0 +1,69 @@
+#academic__container {
+  .top__title {
+    background: $gradient1;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    padding: 18px 0;
+    color: $color-white;
+  }
+  .content-wrapper {
+    padding-right: 20px;
+    p {
+      font-size: 18px;
+      line-height: 20px;
+    }
+  }
+  .course-list {
+    li {
+      font-size: 18px;
+    }
+  }
+  .fee-structure {
+    .top-header {
+      // background: $gradient1;
+      padding: 3px 0;
+      border-radius: 12px 12px 0 0;
+      margin-bottom: 10px;
+    }
+    .white-box {
+      .top-card {
+        background: $gradient1;
+        text-align: center;
+        border-radius: 12px 12px 0 0;
+        color: $color-white;
+        padding: 7px 0;
+        h2 {
+          margin: 0;
+        }
+      }
+      .middle-card {
+        border: 1px solid #9c9c9c;
+        border-radius:0 0 12px 12px;
+        .content {
+          p {
+            font-size: 20px;
+            line-height: 40px;
+          }
+          h1 {
+            font-size: 24px;
+            span {
+              font-size: 38px;
+            }
+          }
+          ul {
+            @include MarPad();
+            margin-bottom: 50px;
+            li {
+              font-size: 20px;
+              line-height: 30px;
+            }
+          }
+        }
+        .btn{
+            font-size: 26px;
+        }
+      }
+    }
+  }
+}

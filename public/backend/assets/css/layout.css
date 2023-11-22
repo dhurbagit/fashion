@@ -1,0 +1,246 @@
+.input_image {
+    border: 1px solid #cacaca;
+    width: 50px;
+    height: 38px;
+    border-radius: 8px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.input_image img {
+    width: 100%;
+}
+
+.form-wrapper {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid rgb(233, 231, 231);
+}
+
+.cs_modal {
+    text-align: center;
+}
+
+.cs_modal .modal-header {
+    position: relative;
+    justify-content: center !important;
+}
+
+.cs_modal .modal-header button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+}
+
+.cs_modal .modal-body {
+    font-size: 23px;
+}
+
+.cs_modal .modal-footer {
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.form-wrapper>b {
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    margin-bottom: 25px;
+    font-size: 20px;
+    background-color: #1b2850;
+    padding: 13px;
+    color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.form-wrapper label {
+    font-weight: 700;
+}
+
+.sidebar .sidebar-menu>ul>li {
+    border-bottom: 1px solid #e2e0e0;
+}
+
+.sidebar .sidebar-menu>ul>li>a {
+    padding: 5px 15px;
+
+}
+
+#wrappper_flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#wrappper_flex .pip {
+    width: 98px;
+    height: 63px;
+    overflow: hidden;
+    margin-top: 15px;
+    position: relative;
+}
+
+#wrappper_flex .pip:not(:last-child) {
+    margin-right: 10px;
+}
+
+#wrappper_flex .pip .remove {
+    position: absolute;
+    top: 0;
+    right: 7px;
+    cursor: pointer;
+}
+
+.gallery_wrapper ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery_wrapper ul li {
+    width: 75px;
+    height: 82px;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.gallery_wrapper ul li:not(:last-child) {
+    margin-right: 15px;
+}
+
+.gallery_wrapper ul li a {
+    position: absolute;
+    top: 0;
+    right: 6px;
+    color: black;
+}
+
+img[data-className] {
+    content: attr(data-class_name);
+    width: 32px !important;
+    height: 32px !important;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+#nav_wrapper>div:nth-child(1) {
+    width: calc(20% - 16px);
+}
+
+#nav_wrapper>div:last-child {
+    width: 80%;
+}
+
+/* menu style */
+
+.menu-box>ol li {
+
+    margin-bottom: 15px;
+}
+
+.flex_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex_box>a {
+    background-color: whitesmoke;
+    width: 100%;
+    display: block;
+    line-height: 35px;
+    padding-left: 15px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.flex_box+ol>li>div a {
+    background-color: #d5d5d5;
+}
+
+.flex_box+ol {
+    padding-left: 50px;
+    margin-top: 15px;
+}
+
+.action_button {
+    display: flex;
+}
+
+.action_button>*:not(:last-child) {
+    margin-right: 5px;
+}
+
+.flex_box>.action_button>.btn {
+    background-color: #198754;
+}
+
+.flex_box .text-success {
+    font-size: 11px;
+    margin-left: 15px;
+    background-color: white;
+    padding: 2px 12px;
+    border-radius: 8px;
+}
+
+/* menu style */
+.table-bordered {
+    border: 1px solid #e1e1e1 !important;
+}
+
+.table-bordered tbody tr td {
+    border: 1px solid #e1e1e1 !important;
+    padding: 10px;
+    font-family: monospace;
+}
+
+
+.table-bordered tr td:nth-child(odd) {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.custom_logo_wrapper {
+    display: block;
+    width: 100%;
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+
+#top_custom_navigation li a {
+    line-height: 56px;
+}
+
+#top_custom_navigation li button i,
+#top_custom_navigation li a i {
+    margin-right: 8px;
+    vertical-align: middle;
+    color: #00ecff;
+    font-size: 20px;
+}
+
+#top_custom_navigation li button {
+    border: none;
+    background: transparent;
+    line-height: 60px;
+}
+
+.header .header-left .logo img {
+    width: 113px;
+}
+
